@@ -75,26 +75,6 @@ For testing purposes, you can use these demo login credentials:
 
 Or use the quick demo login buttons on the login page.
 
-## Project Structure
-
-\`\`\`
-src/
-├── components/          # Reusable UI components
-│   ├── common/         # Shared components (Layout, Navbar, etc.)
-│   ├── farmer/         # Farmer-specific components
-│   ├── buyer/          # Buyer-specific components
-│   └── marketplace/    # Marketplace components
-├── context/            # React Context providers
-├── pages/              # Page components
-│   ├── auth/          # Authentication pages
-│   ├── farmer/        # Farmer dashboard and tools
-│   ├── buyer/         # Buyer dashboard and features
-│   └── marketplace/   # Marketplace and product pages
-├── utils/             # Utility functions and mock data
-├── App.jsx            # Main application component
-└── index.jsx          # Application entry point
-\`\`\`
-
 ## Key Features Implementation
 
 ### Authentication System
@@ -163,9 +143,6 @@ To connect with a real backend:
 4. Test thoroughly
 5. Submit a pull request
 
-## License
-
-This project is licensed under the MIT License.
 
 ## Support
 
